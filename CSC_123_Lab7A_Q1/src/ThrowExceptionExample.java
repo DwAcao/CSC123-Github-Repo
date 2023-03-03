@@ -25,7 +25,7 @@ public class ThrowExceptionExample
 			}
 			catch(ArithmeticException ae)
 			{
-				System.out.println("Showing no errors, non-existent value...");
+				System.out.println("Show no errors, non-existent value here...");
 			}
 		
 		}
