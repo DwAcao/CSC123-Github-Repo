@@ -47,7 +47,7 @@ public class IntAndFloatEHandling
 		// Handling result validation.
 		try {
 			int result = a/(int)b;
-			System.out.print(a/b);
+			System.out.print(result);
 		}
 		catch (ArithmeticException AE) {
 			System.out.println("Cannot divide by zero " + AE);
