@@ -1,0 +1,5 @@
+enum AccountType 
+{
+	CHECKING,
+	SAVING
+}
