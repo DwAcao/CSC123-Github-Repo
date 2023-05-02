@@ -94,7 +94,8 @@ class BankingApplication {
 	public static void openAccount(Scanner scanner, Bank bank, AccountType accountType) {
 
 		String currency;
-
+		
+		// unable to implement
 		if (bank.getExchangeRates().isEmpty()) 
 		{
 			currency = "USD";
@@ -123,7 +124,7 @@ class BankingApplication {
 		{
 			double balance = account.getBalance();
 			double usdBalance = account.getBalanceInUSD(bank);
-			String currency = account.getCurrency();
+			String currency = account.getCurrency(); // was still not able to implement
 
 			System.out.println("Account Number: " + accountNumber);
 			System.out.println("Currency: " + currency);
